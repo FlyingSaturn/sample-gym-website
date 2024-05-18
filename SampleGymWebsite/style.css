@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@700&family=Sarpanch:wght@900&display=wrap');
+*{
+  margin: auto;
+  padding: inherit;
+  font-family: Audiowide, sans-serif;
+  font-size:62.5%;
+}
+/*hsl(0, 57%, 32%), hsl(219, 57%, 32%)*/
+.navbar a {
+  text-decoration: none;
+  color: hsl(0, 50%, 80%);
+  font-family: Sarpanch, sans-serif;
+  font-size:2rem;
+}
+.navbar a:hover {
+  color:hsl(0, 70%, 60%);
+}
+.navbar a:visited {
+  color:hsl(20, 50%, 60%);
+}
+.navbar a:active {
+  color:hsl(0, 50%, 50%);
+}
+.navbar {
+  background-color: hsl(219, 57%, 32%);
+  z-index:5;
+  width:100%;
+}
+body{
+  /*background-color: hsl(219, 57%, 10%);*/
+  background: linear-gradient(to right, teal, hsl(219, 57%, 10%), hsl(219, 57%, 10%), steelblue);
+/*  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;*/
+}
+.header{
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.headu{
+  padding: 6% 6% 0% 6%;
+  font-size: 7rem;
+  font-family: Audiowide, sans-serif;
+  text-align: center;
+  color: red;
+}
+.navbar{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+.navbar ul{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  margin:1%;
+  display: inline-block;
+  background-position: right;
+}
+
+.content p{
+  background-position: center;
+  font-size: 3vh !important;
+  text-align: center;
+  padding-left: 20px;
+  padding-right:20px; /*hsl(0, 57%, 32%)*/
+  margin-left:20px;
+  margin-right:20px;
+  font-family:Audiowide, sans-serif;
+  color: hsl(0,3.4%,65.5%);
+  /*font-style: oblique;*/
+}
+.content {
+margin-bottom:20em;
+} /*footer in About us*/
+h2 {
+  font-size: 7rem;
+   padding: 6% 6% 6%;
+  font-family:Audiowide, sans-serif;
+  margin:5vh;
+  text-align: center;
+  color: white;
+}
+.bodybuilder{
+  background-size: 3vh;
+  margin-left: 3vh;
+  padding-left: 3vh;
+}
+.animated {
+  background-color: white;
+}
+.animated > section {
+  display:flex;
+}
+section p {
+  text-align: center;
+  margin:auto;
+  padding:auto;
+  font-size:3rem;
+  word-wrap: break-word;
+  color: hsla(219, 57%, 0%, 1);
+  background-color: white;
+}
+section img {
+  height:250px;
+  margin-top: 40em;
+  border-width:1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+footer {
+  height:50px;
+  width:100%;
+  margin:10em 0em 0em 0em;
+  background-color: hsl(0, 3%, 30%);
+  left: 0;
+  bottom: 0;
+  color:white;
+  text-align:center;
+  font-family:Arial;
+  font-size:2.275rem;
+}
+.abcde {
+  display:inline-block;
+  margin:4vh;
+  padding: 2vh;
+  }
+.card-tall {
+ grid-row:span 2/auto;
+}
+
+.card-wide {
+ grid-column: span 2/auto;
+}
+div[class|="row"] {
+height:400px;
+width:80%;
+font-size:5rem;
+display:flex;
+justify-content:space-around;
+}
+.heading a {
+padding:5em;
+margin-right:5em;
+color: white;
+}
+.jump{
+font-size:10vh;
+display: inline;
+margin: 1vh;
+padding: 1vh;
+}
+h4 {
+color: white;
+}
+div[class=ab] {
+color: white;
+font-size:5vh;
+}
+.ab a:link {
+ color: hsl(5, 50%, 80%);
+}
+.ab a:visited {
+color:hsl(20, 70%, 50%);
+}
+.ab a:active {
+color:hsl(5, 50%, 50%);
+}
+.ab a:hover {
+color:hsl(0, 80%, 50%);
+}
+.label{
+font-size:5vh;
+background-color: hsl(55, 90%, 42.5%);
+height:5vh;
+display: flex;
+align-items: center;
+}
+h2[class=con] {
+margin-bottom: 0vh;
+padding-bottom:2.5%;
+}
+.con{
+font-size: 10vh;
+}
+.about-1{
+font-size: 8vh;
+color: white;
+margin: 3vh;
+padding: 1vh;
+}
